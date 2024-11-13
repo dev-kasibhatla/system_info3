@@ -1,3 +1,17 @@
+# 4.0.1
+- Forked for further maintenance
+- Updated README.md with more examples, screenshots, and compatibility information
+- Updated dependent packages
+- Here’s a clearer explanation of the changelog, keeping it concise:
+- Added a new method, `getAvailablePhysicalMemory()` for Android and Linux platforms. 
+  - This method returns the amount of usable physical memory (RAM) in bytes, which can be reclaimed for use by the system.
+  - This change addresses a semantic issue with the existing `getFreePhysicalMemory()` method, which reports unused memory - memory that isn't occupied but might not be available for allocation.
+  - On Android and Linux, `getAvailablePhysicalMemory()` now accurately reflects the "available memory" typically shown in device settings and diagnostic apps, aligning with how most tools report memory that can be utilized.
+- Updated example/example.dart to demonstrate the new method
+- Updated the README.md file to include the new method and its use case, with several examples and steps for getting started
+
+
+
 # 4.0.0
 - upgraded to support dart 3.0
 - removed dependency on deprecated file_utils package by coping
