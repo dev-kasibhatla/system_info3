@@ -1,9 +1,10 @@
-name: system_info2
-version: 4.0.0
-homepage: https://sysinfo.onepub.dev
-documentation: https://sysinfo.onepub.dev
-description: Provides easy access to useful information about the system (architecture, bitness, kernel, memory, operating system, CPU, user).
-repository: https://github.com/onepub-dev/system_info
+name: system_info3
+description: Easy access to essential system information, including details about your system's architecture, kernel, memory, operating system, CPU, and user environment
+version: 4.0.1
+homepage: https://github.com/dev-kasibhatla/system_info3
+documentation: https://github.com/dev-kasibhatla/system_info3
+repository: https://github.com/dev-kasibhatla/system_info3
+issue_tracker: https://github.com/dev-kasibhatla/system_info3/issues
 environment: 
   sdk: '>=2.19.0 <4.0.0'
 dependencies: 
@@ -11,3 +12,8 @@ dependencies:
   path: ^1.8.0
 dev_dependencies: 
   lint_hard: ^3.0.0
+platforms:
+  android:
+  linux:
+  macos:
+  windows:
