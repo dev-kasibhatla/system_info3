@@ -1,4 +1,4 @@
-import 'package:system_info2/system_info2.dart';
+import 'package:system_info3/system_info3.dart';
 
 const int megaByte = 1024 * 1024;
 
