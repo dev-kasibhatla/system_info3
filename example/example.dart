@@ -1,4 +1,4 @@
-import 'package:system_info2/system_info2.dart';
+import 'package:system_info3/system_info3.dart';
 
 void main() {
   print('Kernel architecture     : ${SysInfo.kernelArchitecture}');
@@ -24,6 +24,8 @@ void main() {
       ': ${SysInfo.getTotalPhysicalMemory() ~/ megaByte} MB');
   print('Free physical memory    '
       ': ${SysInfo.getFreePhysicalMemory() ~/ megaByte} MB');
+  print('Available physical memory  '
+      ': ${SysInfo.getAvailablePhysicalMemory() ~/ megaByte} MB');
   print('Total virtual memory    '
       ': ${SysInfo.getTotalVirtualMemory() ~/ megaByte} MB');
   print('Free virtual memory     '
