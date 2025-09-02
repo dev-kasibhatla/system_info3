@@ -220,6 +220,7 @@ final processorToArchitecure = <String, ProcessorArchitecture>{
 // 'unicore32'
   'i386': ProcessorArchitecture.x86,
   'i686': ProcessorArchitecture.x86,
+  'amd64': ProcessorArchitecture.x86_64,
   'x86_64': ProcessorArchitecture.x86_64
 // 'xtensa'
 };
