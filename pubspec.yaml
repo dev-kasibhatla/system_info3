@@ -1,6 +1,6 @@
 name: system_info3
 description: Easy access to essential system information, including details about your system's architecture, kernel, memory, operating system, CPU, and user environment
-version: 4.0.1
+version: 4.0.2
 homepage: https://github.com/dev-kasibhatla/system_info3
 documentation: https://github.com/dev-kasibhatla/system_info3
 repository: https://github.com/dev-kasibhatla/system_info3

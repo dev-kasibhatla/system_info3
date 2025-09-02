@@ -1,3 +1,6 @@
+# 4.0.2
+- Return x86_64 for amd64 (Windows) (by [idNoRD](https://github.com/idNoRD))
+
 # 4.0.1
 - Forked for further maintenance
 - Updated README.md with more examples, screenshots, and compatibility information
